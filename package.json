@@ -1,0 +1,23 @@
+{
+  "name": "alurapica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rai-vitor@github.com/rai-vitor/Alurapic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rai-vitor/Alurapic/issues"
+  },
+  "homepage": "https://github.com/rai-vitor/Alurapic#readme",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}
