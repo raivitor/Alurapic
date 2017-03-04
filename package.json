@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/rai-vitor/Alurapic#readme",
   "dependencies": {
+    "body-parser": "^1.17.0",
     "consign": "^0.1.2",
     "express": "^4.15.0"
   }
