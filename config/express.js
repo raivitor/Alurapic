@@ -6,10 +6,14 @@ var bodyParser = require('body-parser');
 app.use(express.static('./public'));
 app.use(bodyParser.json());
 
-consign({cwd: 'app'}).
-	include('models').
-	then('api').
-	then('routes').
-	into(app);
+consign({
+		cwd: 'app',
+		logger: console,
+		verbose: true
+	})
+	.include('models')
+	.then('api')
+	.then('routes')
+	.into(app);
 
 module.exports = app;
