@@ -1,7 +1,9 @@
 var http = require('http');
 var app = require('./config/express');
-require('./config/database')('localhost/alurapic');
+require('./config/database')('raivitor:hehehehe@ds117830.mlab.com:17830/horadoshow');
+//require('./config/database')('localhost/alurapic');
 
-http.createServer(app).listen(3000, function () {
+var porta = process.env.PORT || 3000;
+http.createServer(app).listen(porta, function () {
 	console.log('Servidor iniciado');
 })
