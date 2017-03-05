@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 
 app.use(express.static('./public'));
 app.use(bodyParser.json());
-
+/*
 consign({
 		cwd: __dirname + '/app'
 	})
@@ -13,5 +13,5 @@ consign({
 	.then('api')
 	.then('routes')
 	.into(app);
-
+*/
 module.exports = app;
