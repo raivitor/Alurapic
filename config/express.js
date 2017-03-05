@@ -7,9 +7,7 @@ app.use(express.static('./public'));
 app.use(bodyParser.json());
 
 consign({
-		cwd: 'app',
-		logger: console,
-		verbose: true
+		cwd: 'app'
 	})
 	.include('models')
 	.then('api')
