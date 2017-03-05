@@ -1,6 +1,7 @@
 module.exports = function(app) {
     //var api = app.app.api.foto;
-    console.log(app);
+
+    console.log(app.api);
 /*
     app.route('/v1/fotos')
         .get(api.lista)
