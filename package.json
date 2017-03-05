@@ -17,12 +17,9 @@
     "url": "https://github.com/rai-vitor/Alurapic/issues"
   },
   "homepage": "https://github.com/rai-vitor/Alurapic#readme",
-  "engines": {
-    "node": "^4.6.0"
-  },
   "dependencies": {
     "body-parser": "1.17.0",
-    "consign": "^0.1.2",
+    "consign": "0.1.2",
     "express": "4.15.0",
     "mongoose": "4.8.5"
   }
