@@ -7,7 +7,7 @@ app.use(express.static('./public'));
 app.use(bodyParser.json());
 
 consign({
-		cwd: '/app'
+		cwd: __dirname + '/app'
 	})
 	.include('models')
 	.then('api')
