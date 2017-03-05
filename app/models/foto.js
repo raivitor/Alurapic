@@ -5,6 +5,10 @@ var schema = mongoose.Schema({
 		type: String,
 		required: true
 	},
+	descricao:{
+		type: String,
+		required: false
+	},
 	url: {
 		type: String,
 		required: true
