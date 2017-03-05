@@ -1,5 +1,5 @@
 module.exports = function(app) {
-    var api = app.app.api.foto;
+    var api = app.api.foto;
 
     app.route('/v1/fotos')
         .get(api.lista)
