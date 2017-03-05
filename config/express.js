@@ -7,9 +7,9 @@ app.use(express.static('./public'));
 app.use(bodyParser.json());
 
 consign({cwd: 'app'}).
-	include('models').
-	then('api').
-	then('routes').
+	include('app/models').
+	then('app/api').
+	then('app/routes').
 	into(app);
 
 module.exports = app;

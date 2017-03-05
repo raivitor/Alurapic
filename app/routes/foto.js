@@ -1,6 +1,5 @@
 module.exports = function(app) {
-	/*
-    var api = app.api.foto;
+    var api = app.app.api.foto;
 
     app.route('/v1/fotos')
         .get(api.lista)
@@ -10,5 +9,4 @@ module.exports = function(app) {
         .get(api.buscaPorId)
         .put(api.atualiza)
         .delete(api.removePorId);
-        */
 };

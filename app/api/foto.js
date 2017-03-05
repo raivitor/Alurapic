@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var api = {}
 var model = mongoose.model('Foto');
-api.foto = {};
+
 api.lista = function(req, res) {
 	model
 		.find({})
